@@ -1,0 +1,117 @@
+.container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+}
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+.timer-container {
+  background-color: #ffffff;
+  background-size: cover;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 400px;
+  padding: 20px;
+}
+.time-image-cont {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  height: 50px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.heading {
+  font-size: 50px;
+  color: #333333;
+  font-weight: bold;
+  margin-left: 70px;
+}
+.para {
+  font-size: 18px;
+  color: #333333;
+  font-weight: 800;
+}
+.timer-image {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.heading1 {
+  font-size: 70px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.buttons-cont {
+  display: flex;
+  flex-direction: row;
+}
+.btn {
+  height: 40px;
+  width: 80px;
+  background-color: #1db05f;
+  border: none;
+  margin-right: 30px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.btn1 {
+  height: 40px;
+  width: 80px;
+  background-color: #ef0d36;
+  border: none;
+  margin-right: 30px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.btn2 {
+  height: 40px;
+  width: 80px;
+  background-color: #eaa800;
+  border: none;
+  margin-right: 10px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+@media (max-width: 576px) {
+  .container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+    background-size: cover;
+    height: 100vh;
+    padding: 0px;
+  }
+  .timer-container {
+    width: 90%;
+    border-radius: 10px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .inner-container {
+    margin: 30px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .heading {
+    margin: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+}
